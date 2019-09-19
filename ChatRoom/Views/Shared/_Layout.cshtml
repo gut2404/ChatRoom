@@ -1,0 +1,19 @@
+﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title> 
+    <meta name="keywords" content="WebSocket,Signalr,.Net,.Net Core,数据库" />
+    <meta name="description" content="在线聊天室，只为技术而技术！！！" />
+</head>
+<body>
+    <div class="container body-content">
+        @RenderBody()
+       
+    </div>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
